@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--score-->
+    <div class="score-mover">
+        <p class="correct"></p>
+        <p class="incorrect"></p>
+        <p class="unanswered"></p>
+        <p class="score"></p>
+    </div>
+
+    <!--question-&-timer-->
+    <div class="question-timer-mover">
+        <p class="question"></p>
+        <p class="timer">20:00</p>
+    </div>
+
+    <!--reset-->
+    <div class="reset-button-mover">
+        <button class="main-btn reset-button">Reset</button>
+    </div>
+
+    <!--choices-->
+    <div class="choices-container choices-container-invisible">
+        <button class="btn choices choices1"></button>
+        <button class="btn choices"></button>
+        <button class="btn choices"></button>
+        <button class="btn choices choices4"></button>
+    </div>
+
+    <!--next-->
+    <div class="next-button-mover">
+        <button class="main-btn next-button">Next</button>
+    </div>
+
+    <!--progress-bar-->
+    <div class="progress-bar-mover">
+        <div class="progress-bar-container">
+            <div class="progress-bar">
+            </div>
+            <div class="progress-bar-text">0%</div>
+        </div>
+    </div>
+
+    <!--welcome-->
+    <div class="guide-welcome-start-mover">
+        <div class="welcome-mover">
+            <h3 class="welcome-title">Welcome!</h3>
+            <p class="welcome-text">in This Football Quiz, You Answer 30 Football Questions in 20 Minutes & At The End
+                You
+                Can Find
+                Out
+                How
+                <br> Many You've Got Correct.
+                <br>
+                <br>
+                Note: Your Answer Gets Submitted Only if You Press The Next or End( For The Final Question) Button.
+            </p>
+        </div>
+
+        <!--guide-container-->
+        <div class="guide-container">
+            <h3 class="guide-title">Buttons Guide</h3>
+            <div class="start-container">
+                <p class="start-text">Start:</p>
+                <p class="sub-start-text">Start of The Test</p>
+            </div>
+
+            <div class="next-container">
+                <p class="next-text">Next:</p>
+                <p class="sub-next-text">Shows Next Question & Submits Previous Question Answer</p>
+            </div>
+
+            <div class="reset-container">
+                <p class="reset-text">Reset:</p>
+                <p class="sub-reset-text">Reset The Whole Test if The Countdown is Ended or There Are No More
+                    Questions
+                </p>
+            </div>
+
+            <div class="end-container">
+                <p class="end-text">End:</p>
+                <p class="sub-end-text">Only Shows Up For The Final Question</p>
+            </div>
+        </div>
+
+        <!--start-button-->
+        <div class="start-button-mover">
+            <button class="main-btn start-button">Start</button>
+        </div>
+    </div>
+
+    <!--spinner-->
+    <div class="spinner-container">
+        <div class="spinner">
+        </div>
+    </div>
+
+    <p class="spinner-text">Processing...</p>
+
+    <script type="module" src="quiz-javascript.js"></script>
+
+</body>
+
+</html>
